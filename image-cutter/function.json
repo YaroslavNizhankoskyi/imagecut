@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "message",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "imagecut",
+      "connection": "ServiceBusConnectionString"
+    },
+    {
+      "name": "queueOutput",
+      "type": "queue",
+      "direction": "out",
+      "queueName": "cuttedstore",
+      "connection": "ServiceBusConnectionString"
+  }
+  ]
+}
