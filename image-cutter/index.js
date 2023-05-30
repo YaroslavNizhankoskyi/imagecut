@@ -2,7 +2,7 @@ const sharp = require('sharp');
 
 module.exports = async function (context, message) {  
     context.log(message);
-    context.log(JSON.parse(message).url);
+    context.log(message.url);
     const {url, sizes = [100,300]} = JSON.parse(message);
     const origin = await downloadFile(url);        
 
