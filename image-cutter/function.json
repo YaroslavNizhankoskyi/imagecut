@@ -13,6 +13,6 @@
       "direction": "out",
       "queueName": "cuttedstore",
       "connection": "ServiceBusConnectionString"
-  }
+    }
   ]
 }
