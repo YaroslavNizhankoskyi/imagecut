@@ -9,7 +9,7 @@
     },
     {
       "name": "queueOutput",
-      "type": "queue",
+      "type": "serviceBus",
       "direction": "out",
       "queueName": "cuttedstore",
       "connection": "ServiceBusConnectionString"
